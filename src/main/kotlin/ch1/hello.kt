@@ -1,4 +1,4 @@
-package ch2
+package ch1
 
 class hello {
 
