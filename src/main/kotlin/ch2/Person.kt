@@ -28,6 +28,5 @@ class Test {
         // The cast will either succeed, resulting in a Person, or will fail, and p1 will receive null as a result.
         val p1 = p as? Person
 
-
     }
 }
