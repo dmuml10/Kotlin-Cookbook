@@ -8,6 +8,10 @@ var mutableList = mutableListOf(1, 2, 3)
 var mutableSet = mutableSetOf(1, 2, 3, 3)
 var mutableMap = mutableMapOf("a" to "aa", "b" to "bb")
 
+var chunk = 0 .. 10
+
+val list = listOf("a", "b", "c", "d", "e", "f", "g")
+
 fun main() {
     mutableList.add(4)
     println(mutableList)
@@ -17,4 +21,8 @@ fun main() {
 
     mutableMap["c"] = "cc"
     println(mutableMap)
+    println(chunk.chunked(3))
+
+    val (a, b, c, d, e) = list
+    println("$a $b $c $d $e")
 }
